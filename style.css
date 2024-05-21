@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap');
+body{
+    background-color: rgb(79, 73, 104);
+    color: #eaecc3;
+    font-family: "Philosopher", sans-serif;
+}
+header, footer, .inf-block{
+    background-color: rgb(123, 126, 160);
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 1rem 0;
+
+}
+.inf-block{
+    padding: 0.5rem 1rem;
+    flex-basis: 300px;
+    border-radius: 10px;
+}
+@media (max-width: 600px) {
+    .main{
+        flex-direction: column;
+    }
+    .inf-block{
+        flex-basis: 0px;
+    }
+}
+header, footer {
+    padding: 0.5rem 1rem;
+}
+.center {
+    margin: 0 auto;
+    max-width: 900px;
+}
+img {
+    width: 100%;
+}
+a {
+    color: rgb(240, 228, 58);
+}
+footer p {
+    font-weight: 700;
+}
+h1 {
+    font-size: 2.3rem;
+    text-align: center;
+}
+p {
+    line-height: 1.5;
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
